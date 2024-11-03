@@ -26,13 +26,20 @@
                 <h1 class="text-9xl font-black">ALPHABET CLASH</h1>
                 <p class="text-xl">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
                 <button onclick="play()" class="btn rounded-md font-bold px-10 pt-6 pb-14 text-2xl">Play Now</button>
-        </section>
+                <footer class="absolute bottom-0">
+                    <footer class="px-40 footer footer-center bg-[#ffffff4b] text-base-content p-4">
+                        <aside>
+                            <p class="text-black font-semibold">This Game is made by <span class="text-lg">Abdur Rahman</span></p>
+                        </aside>
+                      </footer>
+                </footer>
+            </section>
         <!-- PlayGround Section -->
         <section id="ground" class="ground hidden">
             <div class="flex flex-col items-center gap-20">
                 <!-- screen -->
                  <div class="mt-24">
-                    <div class="artboard artboard-horizontal bg-[#ffffff82] phone-6 border-[20px] rounded-r-xl border-[#010313d4]">
+                    <div class="artboard artboard-horizontal bg-[#ffffff82] border-[20px] rounded-r-xl border-[#010313d4]">
                         <div class="flex justify-center">
                             <p class="bg-[#2F2941] rounded-b-xl px-5 pt-2 pb-5 text-white text-2xl text-popin">Don't watch keyboard  while playing...</p>
                         </div>
@@ -40,11 +47,10 @@
                             <p id="mainText" class="text-9xl font-extrabold uppercase"></p>
                         </div>
                     </div>
-
                  </div>
                  <!--keyBoard  -->
-                <div class="">
-                    <div class="py-1 flex w-full justify-center gap-3">
+                <div class="w-full">
+                    <div class="py-1 flex w-full justify-center gap-1 md:gap-3">
                         <kbd id="q" class="kbd">q</kbd>
                         <kbd id="w" class="kbd">w</kbd>
                         <kbd id="e" class="kbd">e</kbd>
@@ -56,7 +62,7 @@
                         <kbd id="o" class="kbd">o</kbd>
                         <kbd id="p" class="kbd">p</kbd>
                       </div>
-                      <div class="py-1 flex w-full justify-center gap-3">
+                      <div class="py-1 flex w-full justify-center gap-1 md:gap-3">
                         <kbd id="a" class="kbd">a</kbd>
                         <kbd id="s" class="kbd">s</kbd>
                         <kbd id="d" class="kbd">d</kbd>
@@ -67,7 +73,7 @@
                         <kbd id="k" class="kbd">k</kbd>
                         <kbd id="l" class="kbd">l</kbd>
                       </div>
-                      <div class="py-1 flex w-full justify-center gap-3">
+                      <div class="py-1 flex w-full justify-center gap-1 md:gap-3">
                         <kbd id="z" class="kbd">z</kbd>
                         <kbd id="x" class="kbd">x</kbd>
                         <kbd id="c" class="kbd">c</kbd>
@@ -79,7 +85,7 @@
                       </div>
                 </div>
                 <!-- button -->
-                 <div class="flex items-center justify-between w-1/2">
+                 <div class="flex items-center justify-between md:w-1/2">
                     <button class="bg-[#894189] rounded-full px-8 py-5 text-white text-2xl font-medium">Life 
                         <span><i class="fa-solid fa-heart-circle-plus"></i></span>
                         <span id="life">5</span>
@@ -100,6 +106,13 @@
                 <button onclick="again()" class="bg-white text-black px-4 py-3 rounded-lg text-lg font-semibold">Play Again</button>
                 <p>Practice will make you Pro</p>
             </div>
+            <footer class="absolute bottom-0">
+                <footer class="px-40 footer footer-center bg-[#ffffff4b] text-base-content p-4">
+                    <aside>
+                        <p class="text-black font-semibold">This Game is made by <span class="text-lg">Abdur Rahman</span></p>
+                    </aside>
+                  </footer>
+            </footer>
         </section>
     </main>
     <script src="./scripts/utility.js"></script>
